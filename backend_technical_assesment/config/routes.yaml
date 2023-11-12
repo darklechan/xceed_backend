@@ -1,0 +1,4 @@
+tweets:
+    path: /tweets/{userName}
+    controller: App\Application\Controller\TweetConverterController:index
+    methods: GET
